@@ -1,5 +1,8 @@
+---
 license: apache-2.0
-pipeline_tag: text-summarization
+language:
+- en
+pipeline_tag: summarization
 ---
 # Model Card: Fine-Tuned T5 Small for Text Summarization
 
@@ -50,4 +53,3 @@ References
 Hugging Face Model Hub
 T5 Paper
 Disclaimer: The model's performance may be influenced by the quality and representativeness of the data it was fine-tuned on. Users are encouraged to assess the model's suitability for their specific applications and datasets.
-
