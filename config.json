@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "Falconsai/text_summarization",
+  "_name_or_path": "./model/",
   "architectures": [
     "T5ForConditionalGeneration"
   ],
