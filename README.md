@@ -26,6 +26,7 @@ The goal of this meticulous training process is to equip the model with the abil
 ### How to Use
 To use this model for text summarization, you can follow these steps:
 
+
 ```python
 from transformers import pipeline
 
@@ -55,6 +56,8 @@ Hugging Face's story is one of transformation, collaboration, and empowerment. T
 """
 print(summarizer(ARTICLE, max_length=230, min_length=30, do_sample=False))
 >>> [{'summary_text': 'Hugging Face has emerged as a prominent and innovative force in NLP . From its inception to its role in democratizing AI, the company has left an indelible mark on the industry . The name "Hugging Face" was chosen to reflect the company\'s mission of making AI models more accessible and friendly to humans .'}]
+```
+
 
 Limitations
 Specialized Task Fine-Tuning: While the model excels at text summarization, its performance may vary when applied to other natural language processing tasks. Users interested in employing this model for different tasks should explore fine-tuned versions available in the model hub for optimal results.
