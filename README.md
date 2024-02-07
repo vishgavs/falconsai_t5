@@ -76,7 +76,7 @@ Hugging Face's journey is far from over. As of my last knowledge update in Septe
 Conclusion
 Hugging Face's story is one of transformation, collaboration, and empowerment. Their open-source contributions have reshaped the NLP landscape and democratized access to AI. As they continue to push the boundaries of AI research, we can expect Hugging Face to remain at the forefront of innovation, contributing to a more inclusive and ethical AI future. Their journey reminds us that the power of open-source collaboration can lead to groundbreaking advancements in technology and bring AI within the reach of many.
 """
-print(summarizer(ARTICLE, max_length=230, min_length=30, do_sample=False))
+print(summarizer(ARTICLE, max_length=1000, min_length=30, do_sample=False))
 >>> [{'summary_text': 'Hugging Face has emerged as a prominent and innovative force in NLP . From its inception to its role in democratizing AI, the company has left an indelible mark on the industry . The name "Hugging Face" was chosen to reflect the company\'s mission of making AI models more accessible and friendly to humans .'}]
 ```
 
